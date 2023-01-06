@@ -9,16 +9,13 @@
 </head>
 <body>
     <h1>Homework9</h1>
-    <div class="text"></div>
-    <input id="output-field" type="text">
+    <div id="text-field" class="text"><p></p></div>
+    <input id="intput-field" type="text">
+    <div id="hidden-text" class="hidden-text">заполните это поле</div>
     <div class="buttons">
-        <button id="enter-txt" class="enter-button">Enter text</button>
-        <button id="enter-txt" class="clear-button">Clear text</button>
+        <button onclick="enterTextHandler()" id="enter-txt" class="enter-button">Enter text</button>
+        <button onclick="clearTextHandler()" id="clear-txt" class="clear-button">Clear text</button>
     </div>
-    
-    
-
-  
     <script src="script.js"></script>
 </body>
 </html>

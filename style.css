@@ -1,4 +1,4 @@
-#output-field {
+#intput-field {
     margin: 10px;
     width: 300px;
     height: 22px;
@@ -7,8 +7,16 @@
     margin: 10px;
 }
 .text {
-    margin: 10px;
+    margin: 10px 0px 0px 10px;
+    padding: 10px 5px 0px;
     width: 308px;
     height: 30px;
     background: rgb(232, 229, 229);
+}
+.hidden-text {
+    margin-left: 10px;
+    display: none;
+}
+.visible {
+    display: block;
 }
